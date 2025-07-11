@@ -2,6 +2,10 @@ install:
 	uv sync
 
 
+package-install:
+	uv pip install --force-reinstall dist/*.whl
+
+
 package:
 	hatchling build
 
