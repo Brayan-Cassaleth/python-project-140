@@ -7,4 +7,5 @@ name = welcome_user()
 def main():
     game_progression(name)
     
-main()
+if __name__ == "__main__":
+    main()

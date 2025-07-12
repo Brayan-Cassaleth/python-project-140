@@ -37,7 +37,7 @@ def game_progression(name):
         user_answer = input("Your answer: ")
         
         if answer != user_answer:
-            print(message_loser(name, answer, user_answer))
+            print(message_loser(name, user_answer, answer))
             break
         
         print("Correct!")
