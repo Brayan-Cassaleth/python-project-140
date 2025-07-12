@@ -23,7 +23,7 @@ def operacion():
 
 
 def game_calculate(name):
-    cont = 0
+    count = 0
     print("\nWhat is the result of the expression?")
     
     for i in range(3):
@@ -36,7 +36,7 @@ def game_calculate(name):
             break
 
         print("Correct!")
-        cont += 1
+        count += 1
 
-    if cont == 3:
+    if count == 3:
         print(f"\nCongratulations, {name}")
